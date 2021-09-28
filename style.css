@@ -1,0 +1,6 @@
+<head><link rel="stylesheet" href="style.css"></head>
+div {background: red;/* height: 50px; width: 300px; */}
+span {background: greenyellow;}
+span {background: greenyellow;height: 50px;width: 300px;display: block;}
+div {display: inline;} div {display: inline-block;}
+<div>Block-level element</div> <span>Inline element</span>
