@@ -1,34 +1,44 @@
-<!DOCTYPE html>
-    <html>
-<head>
-<head>
-<body>
-<body>
-    <style>
-    h1{ color:plum}
-    h2{ color:palevioletred}
-    h3{ color:palevioletred}
-    h4{ color: palevioletred}
-    h5{ color:palevioletred}
-    ol{ color:bisque }
-    p {font-size: 12px;}p {font-size: 24px;}
-    nav li a {color:bisque;}
-    P {font-size: 12px!important;}
-    #container {font-size: 50px;}
-    .fdiv { 
+<style>
+h1{ color:plum}
+h2{ color:palevioletred}    
+h3{ color:palevioletred}
+h4{ color: palevioletred}
+h5{ color:palevioletred}
+ol{ color:bisque }
+p{ color: bisque}
+body{ color:yellow}
+li{ color: rgb(247, 236, 83);
+    text-align: left;
+    font-size: large;}
+ol{ color:darkorchid;
+    text-align: left;
+    font-size:larger}
+img{ align-items: center;}
+p {font-size: 12px;}p {font-size: 24px;}
+nav li a {color:bisque;}
+P {font-size: 12px!important;}
+#container {font-size: 50px;}
+.fdiv { 
         border: 5px outset blueviolet;
         background-color: slateblue;
         text-align:center;
+        animation-name: identifier;
+        animation-duration: 5s;
     }
-    .sdiv {
+.sdiv {
         text-align:center;
     }
-   </style>
-<footer>
-    <div class="sdiv">
-    <p>Chloe Crochet all rights reserved hehe.</p>
-</div>
-</footer>
-
-</body>
-</html>
+ .tdiv { 
+        background-color: cornflowerblue;
+        animation-name: chloe;
+        animation-duration: 5s;
+    }
+@keyframes identifier {
+    from {background-color: slateblue;}
+    to {background-color: bisque}
+    }
+@keyframes chloe {
+    from {background-color: cornflowerblue}
+    to {background-color:rgb(161, 147, 238)}
+}
+</style>
