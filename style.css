@@ -1,4 +1,11 @@
 <style>
+header{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color:bisque
+}
 h1{ color:plum}
 h2{ color:palevioletred}    
 h3{ color:palevioletred}
@@ -13,13 +20,15 @@ li{ color: rgb(247, 236, 83);
 ol{ color:darkorchid;
     text-align: left;
     font-size:larger}
-img{ align-items: center;}
+img{ align-items: center;
+background-color:aqua}
 p {font-size: 12px;}p {font-size: 24px;}
 nav li a {color:bisque;}
 P {font-size: 12px!important;}
+footer{ background-color:burlywood}
 #container {font-size: 50px;}
 .fdiv { 
-        border: 5px outset blueviolet;
+        border: 10px outset blueviolet;
         background-color: slateblue;
         text-align:center;
         animation-name: identifier;
@@ -33,6 +42,11 @@ P {font-size: 12px!important;}
         animation-name: chloe;
         animation-duration: 5s;
     }
+.chloediv {
+    border:5px outset plum;
+    background-color:bisque;
+
+}
 @keyframes identifier {
     from {background-color: slateblue;}
     to {background-color: bisque}
